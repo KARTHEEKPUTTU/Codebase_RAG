@@ -4,7 +4,6 @@
 This project implements a **Retrieval-Augmented Generation (RAG)** system that allows users to ask natural-language questions about a GitHub codebase and receive **context-aware answers grounded in the actual source code**.
 
 The system ingests a repository, embeds its source files, stores them in a vector database, and uses a Large Language Model (LLM) to answer questions based strictly on retrieved code context.
-
 ---
 
 ## 🧠 Problem Statement
@@ -14,7 +13,6 @@ This project solves:
 - Navigating unfamiliar repositories
 - Understanding how components work together
 - Answering implementation-level questions without manually searching files
-
 ---
 
 ## 🏗️ Architecture
@@ -45,7 +43,6 @@ Codebase_RAG/
 ├── .env # API key configuration
 └── README.md
 ```
-
 
 ---
 
